@@ -1,0 +1,16 @@
+{
+  "ads": {
+    "enabled": false,
+    "rewarded": "",
+    "interstitial": "",
+    "appOpen": ""
+  },
+  "adPolicy": {
+    "interstitialMinLevel": 5,
+    "interstitialCooldown": 100,
+    "levelsBetweenInterstitials": 2,
+    "skipInterstitialAfterLosses": 2,
+    "firstSessionAdFree": true
+  },
+  "appMetricaAPIKey": ""
+}
