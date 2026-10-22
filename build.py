@@ -103,13 +103,16 @@ HOME = f"""
   <div><b>Рейтинг дня и недели</b><span>Game Center покажет ваше место и «топ X%». Топ-1% открывает «Легенду».</span></div>
 </section>
 <section class="shots" aria-label="Скриншоты">
-  <img src="img/01_daily.jpg" alt="Главный экран: 50 филвордов дня в трёх этапах">
+  <img src="img/01_daily.jpg" alt="Главный экран: 50 филвордов дня, следующее — бой с Эмпусой">
+  <img src="img/10_empusa.jpg" alt="Бой с Эмпусой: морок на буквах и мерцающее ложное слово">
+  <img src="img/11_duet.jpg" alt="Бой вдвоём: Пиррон и Эмпуса">
+  <img src="img/12_abyss.jpg" alt="Бездна: забег на время, запас 3:37">
+  <img src="img/13_abyss_lobby.jpg" alt="Бездна: клятвы, звания и трофеи">
   <img src="img/03_mentor.jpg" alt="Наставник радуется победе">
   <img src="img/09_boss.jpg" alt="Бой с боссом: Шут Пиррон">
   <img src="img/08_ult.jpg" alt="Ульта наставника на поле «Вершины»">
   <img src="img/07_mentors.jpg" alt="Мастер кунг-фу — один из четырёх наставников">
   <img src="img/04_rating.jpg" alt="Рейтинг дня: топ-2%">
-  <img src="img/06_legend.jpg" alt="Экран ачивки «Легенда»">
 </section>
 """
 
