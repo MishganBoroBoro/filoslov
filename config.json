@@ -1,8 +1,10 @@
 {
   "ads": {
     "enabled": false,
-    "rewarded": "",
-    "interstitial": "",
+    "network": "vk",
+    "rewarded": "2096034",
+    "rewardedUlt": "2096037",
+    "interstitial": "2096040",
     "appOpen": ""
   },
   "adPolicy": {
