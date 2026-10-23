@@ -15,5 +15,54 @@
     "skipInterstitialAfterLosses": 2,
     "firstSessionAdFree": true
   },
-  "appMetricaAPIKey": "b1646251-7ffa-48be-b21e-6f14f4029ea0"
+  "appMetricaAPIKey": "b1646251-7ffa-48be-b21e-6f14f4029ea0",
+  "holdout": {
+    "salt": "forever",
+    "share": 10
+  },
+  "experiment": {
+    "salt": "ads-test-1",
+    "groups": [
+      {
+        "id": "rare",
+        "share": 45,
+        "formats": [
+          "rewarded",
+          "rewardedUlt",
+          "interstitial"
+        ],
+        "adPolicy": {
+          "skipInterstitialAfterLosses": 2,
+          "firstSessionAdFree": true,
+          "abyssInterstitials": true,
+          "interstitialMinRounds": 8,
+          "levelsBetweenInterstitials": 3,
+          "interstitialCooldown": 150
+        },
+        "hints": {
+          "roundsPerHint": 3
+        }
+      },
+      {
+        "id": "often",
+        "share": 45,
+        "formats": [
+          "rewarded",
+          "rewardedUlt",
+          "interstitial"
+        ],
+        "adPolicy": {
+          "skipInterstitialAfterLosses": 2,
+          "firstSessionAdFree": true,
+          "abyssInterstitials": true,
+          "interstitialMinRounds": 4,
+          "levelsBetweenInterstitials": 2,
+          "interstitialCooldown": 90
+        },
+        "hints": {
+          "roundsPerHint": 5
+        }
+      }
+    ]
+  }
 }
