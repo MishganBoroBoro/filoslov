@@ -25,7 +25,7 @@
     "groups": [
       {
         "id": "rare",
-        "share": 45,
+        "share": 50,
         "formats": [
           "rewarded",
           "rewardedUlt",
@@ -45,7 +45,7 @@
       },
       {
         "id": "often",
-        "share": 45,
+        "share": 50,
         "formats": [
           "rewarded",
           "rewardedUlt",
