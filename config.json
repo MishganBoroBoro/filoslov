@@ -65,13 +65,13 @@
           "firstSessionAdFree": true,
           "abyssInterstitials": true,
           "interstitialMinRounds": 8,
-          "levelsBetweenInterstitials": 5,
-          "interstitialCooldown": 300,
-          "veteranCooldown": 300,
+          "levelsBetweenInterstitials": 6,
+          "interstitialCooldown": 480,
+          "veteranCooldown": 480,
           "dailyFullscreenCap": 30,
           "softCapFrom": 20,
           "softCapChance": 0.7,
-          "veteranLevelsBetween": 5
+          "veteranLevelsBetween": 6
         },
         "hints": {
           "roundsPerHint": 3
@@ -91,13 +91,13 @@
           "firstSessionAdFree": true,
           "abyssInterstitials": true,
           "interstitialMinRounds": 4,
-          "levelsBetweenInterstitials": 4,
-          "interstitialCooldown": 240,
-          "veteranCooldown": 240,
+          "levelsBetweenInterstitials": 5,
+          "interstitialCooldown": 420,
+          "veteranCooldown": 420,
           "dailyFullscreenCap": 30,
           "softCapFrom": 20,
           "softCapChance": 0.7,
-          "veteranLevelsBetween": 4
+          "veteranLevelsBetween": 5
         },
         "hints": {
           "roundsPerHint": 5
