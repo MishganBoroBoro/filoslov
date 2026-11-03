@@ -1,3 +1,106 @@
 {
-  "appMetricaAPIKey": "b1646251-7ffa-48be-b21e-6f14f4029ea0"
+  "ads": {
+    "enabled": true,
+    "network": "vk",
+    "rewarded": "2096034",
+    "rewardedUlt": "2096037",
+    "interstitial": "2096040",
+    "appOpen": "",
+    "rewardedChance": "2096053",
+    "provider": "mediation",
+    "banner": "2103266",
+    "units": {
+      "yandex": {
+        "rewarded": "R-M-20265447-1",
+        "rewardedUlt": "R-M-20265447-2",
+        "rewardedChance": "R-M-20265447-3",
+        "interstitial": "R-M-20265447-4",
+        "appOpen": "R-M-20265447-5",
+        "banner": "R-M-20265447-6"
+      },
+      "mediation": {
+        "rewarded": "R-M-20265447-1",
+        "rewardedUlt": "R-M-20265447-2",
+        "rewardedChance": "R-M-20265447-3",
+        "interstitial": "R-M-20265447-4",
+        "appOpen": "R-M-20265447-5",
+        "banner": "R-M-20265447-6"
+      },
+      "vk": {
+        "rewarded": "2096034",
+        "rewardedUlt": "2096037",
+        "rewardedChance": "2096053",
+        "interstitial": "2096040",
+        "appOpen": "",
+        "banner": "2103266"
+      }
+    }
+  },
+  "adPolicy": {
+    "interstitialMinLevel": 5,
+    "interstitialCooldown": 210,
+    "levelsBetweenInterstitials": 2,
+    "skipInterstitialAfterLosses": 2,
+    "firstSessionAdFree": true
+  },
+  "appMetricaAPIKey": "b1646251-7ffa-48be-b21e-6f14f4029ea0",
+  "holdout": {
+    "salt": "forever",
+    "share": 10
+  },
+  "experiment": {
+    "salt": "ads-test-1",
+    "groups": [
+      {
+        "id": "rare",
+        "share": 50,
+        "formats": [
+          "rewarded",
+          "rewardedUlt",
+          "interstitial",
+          "banner"
+        ],
+        "adPolicy": {
+          "skipInterstitialAfterLosses": 2,
+          "firstSessionAdFree": true,
+          "abyssInterstitials": true,
+          "interstitialMinRounds": 8,
+          "levelsBetweenInterstitials": 3,
+          "interstitialCooldown": 210,
+          "veteranCooldown": 210,
+          "dailyFullscreenCap": 30,
+          "softCapFrom": 20,
+          "softCapChance": 0.7
+        },
+        "hints": {
+          "roundsPerHint": 3
+        }
+      },
+      {
+        "id": "often",
+        "share": 50,
+        "formats": [
+          "rewarded",
+          "rewardedUlt",
+          "interstitial",
+          "banner"
+        ],
+        "adPolicy": {
+          "skipInterstitialAfterLosses": 2,
+          "firstSessionAdFree": true,
+          "abyssInterstitials": true,
+          "interstitialMinRounds": 4,
+          "levelsBetweenInterstitials": 2,
+          "interstitialCooldown": 210,
+          "veteranCooldown": 210,
+          "dailyFullscreenCap": 30,
+          "softCapFrom": 20,
+          "softCapChance": 0.7
+        },
+        "hints": {
+          "roundsPerHint": 5
+        }
+      }
+    ]
+  }
 }
